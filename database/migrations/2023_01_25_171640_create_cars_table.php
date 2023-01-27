@@ -34,3 +34,6 @@ return new class extends Migration
         Schema::dropIfExists('cars');
     }
 };
+
+
+// DB::table('cars')->insert(['name'=>'Fiat 500', 'price'=>17000, 'description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam suscipit saepe nesciunt earum ut, sint dolorum assumenda qui libero.', 'image'=>'https://www.b92.net/news/pics/2020/03/04/14219322015e5feddb9bc47839965533_orig.jpg', 'published'=>false]);

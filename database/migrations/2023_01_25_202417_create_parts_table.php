@@ -35,3 +35,5 @@ return new class extends Migration
         Schema::dropIfExists('parts');
     }
 };
+
+// DB::table('parts')->insert(['name'=>'Steering Wheel', 'size'=>37, 'color'=>'brown-black', 'car_name'=>'Fiat 500', 'description'=>'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam suscipit saepe nesciunt earum ut, sint dolorum assumenda qui libero.', 'image'=>'https://www.riauto.ch/content/images/thumbs/0005393_holzlenkrad-nardi-classico.jpeg']);
